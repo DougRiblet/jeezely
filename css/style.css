@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:500);
+@import url(https://fonts.googleapis.com/css?family=Tillana:800);
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('https://farm4.staticflickr.com/3064/2399837910_3dddf6086c_o.jpg');
+  background-repeat: no-repeat;
+}
+
+#headcont {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.container {
+  max-width: 800px;
+  min-height: 1000px;
+  margin: 0px auto;
+  background-color: white;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+#header {
+  background-color: #33333b;
+  padding-bottom: 5px;
+}
+
+#logo {
+  font-family: 'Tillana', cursive;
+  color: #55aa77;
+  font-weight: 800;
+}
+
+#goalText {
+  text-align: right;
+  color: #e7e7e7;
+  margin-top: 20px;
+}
+
+.row {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#timerDisplay {
+  border: 2px solid green;
+  border-radius: 12px;
+  width: 70px;
+  background-color: white;
+  padding: 2px 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  text-align: right;
+}
+
+#word7 {
+  margin-top: 50px;
+}
+
+#buttonRow {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #33333b;
+  background-color: #e7e7ee;
+}
+
+#timerRow,
+#rightRow {
+  background-color: #eeeeee;
+  color: black;
+  padding-top: 10px;
+}
+
+#newSeven {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 48px;
+}
+
+#newSevenLeft,
+#userGuess {
+  margin-left: 55px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+#guessWords {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+  border: 2px solid #aaaaaa;
+  border-radius: 8px;
+  width: 150px;
+  margin-top: 15px;
+  padding: 5px 15px;
+}
+
+#answers1 {
+  margin-top: 80px;
+}
+
+#answers2 {
+  margin-bottom: 30px;
+}
+
+.answers4 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+#correct4 {
+  border-top: 2px solid green;
+  min-height: 80px;
+  padding: 5px;
+}
+
+.glyphicon-ok {
+  color: green;
+}
+
+.glyphicon-remove {
+  color: red;
+}
+
+.glyphicon-flag {
+  color: green;
+}
+
+.glyphicon-info-sign {
+  color: #666666;
+  font-size: 170%;
+  cursor: pointer;
+}
+
+#wrong4 {
+  border-top: 2px solid red;
+  min-height: 50px;
+  padding: 5px;
+  color: red;
+}
+
+#missed4 {
+  border-top: 2px solid green;
+  min-height: 40px;
+  padding: 5px;
+}
+
+#aboutJeez {
+  background-color: #dddddd;
+  margin-top: 100px;
+  padding: 30px 200px 30px 50px;
+}
+
+#about-text {
+  padding: 20px 50px;
+  font-size: 125%;
+}
+
+#about-text p {
+  margin-top: 20px;
+}
+
+#backTo {
+  text-align: right;
+  text-decoration: underline;
+  cursor: pointer;
+}

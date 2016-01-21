@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Jeezely</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="row" id="header">
+  <div id="headcont">
+    <div class="col-sm-6">
+      <h3><span id="logo">JEEZELY</span> <small>word search game</small></h3>
+    </div>
+    <div class="col-sm-6" id="goalText">
+      <span class="glyphicon glyphicon-info-sign" id="infoPage"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div id="tabbedAreaMain">
+    <div class="row" id="buttonRow">
+      <div class="col-sm-4">
+        <button id="newRound" class="btn btn-primary btn-block">Start New Round</button>
+      </div>
+      <div class="col-sm-2">
+        <form>
+          <label class="radio-inline">
+            <input type="radio" name="timer" id="timerOff" value="untimed">Untimed
+          </label>
+          <br>
+          <label class="radio-inline">
+            <input type="radio" name="timer" id="timerOn" value="timed" checked>Timed
+          </label>
+        </form>
+      </div>
+      <div class="col-sm-2">
+        <p id="timerDisplay"><span id="secondsLeft">0</span></p>
+      </div>
+      <div class="col-sm-4">
+        <button id="finishButton" class="btn btn-primary btn-block">End Round</button>
+      </div>
+    </div>
+
+    <div class="row" id="word7">
+      <div class="col-sm-12" id="newSevenLeft">
+        <h1 id="newSeven">XOXOXOX</h1>
+      </div>
+    </div>
+
+    <div class="row" id="guess4">
+      <div class="col-sm-12">
+
+        <form id="userGuess">
+          <input id="guessWords" type="text" maxlength="4" autocomplete="off">
+        </form>
+      </div>
+    </div>
+
+    <div class="row answers4" id="answers1">
+      <div class="col-sm-10">
+        <p id="correct4"></p>
+      </div>
+      <div class="col-sm-2">
+        <p><span class="glyphicon glyphicon-ok"></span>
+          <br>
+          <span id="rightNumber">0</span>/<span id="targetNumber">0</span></p>
+      </div>
+    </div>
+    <div class="row answers4">
+      <div class="col-sm-10">
+        <p id="wrong4"></p>
+      </div>
+      <div class="col-sm-2">
+        <p><span class="glyphicon glyphicon-remove"></span>
+        </p>
+      </div>
+    </div>
+    <div class="row answers4" id="answers2">
+      <div class="col-sm-10">
+        <p id="missed4"></p>
+      </div>
+      <div class="col-sm-2">
+        <p><span class="glyphicon glyphicon-flag"></span></p>
+      </div>
+    </div>
+  </div>
+  <div id="tabbedAreaAbout">
+    <div class="row">
+      <div id="about-text">
+        <p id="backTo">Back to Game</p>
+
+        <h2>About Jeezely</h2>
+
+        <p>Goal: Find all the four-letter words inside the given seven-letter word.</p>
+
+        <p>Click "Start New Round" to generate a new seven-letter word. Enter your guesses in the text box, and hit "return" on your keyboard to submit a guess. Correct guesses will appear next to the green check mark. Incorrect guesses will appear next to the red X mark. When the round ends, the words you missed will appear next to the green flag mark.</p>
+
+        <p>You can choose a "timed" or "untimed" game. The timed option allots six seconds per valid four-letter word. The round ends when (a) the timer runs out, or (b) you have found every valid four, or (c) you click "End Round". With the untimed option, the round ends when (a) you have found every valid four, or (b) you click "End Round". You can change this setting in between rounds.</p>
+
+        <p>This game is designed mainly to help crossword-game players master the four-letter words. The pool of four-letter words used for this game matches the list of legal four-letter words in one popular crossword-game. All seven-letter words here are legal words as well. This page is not affiliated with or endorsed by the makers of any branded crossword-game.</p>
+
+        <p>Coding: This game uses JavaScript and jQuery. It began as a "learning to code" exercise.</p>
+
+        <p>Photo credit: <a href="https://www.flickr.com/photos/24293932@N00/2399837910/in/photostream/">A Syn on Flickr</a>.
+      </div>
+    </div>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
